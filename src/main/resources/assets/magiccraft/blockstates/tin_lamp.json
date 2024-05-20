@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "magiccraft:block/tin_lamp_on"},
+    "lit=false": { "model": "magiccraft:block/tin_lamp_off"}
+  }
+}

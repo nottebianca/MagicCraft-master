@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": {"model": "magiccraft:block/mandragora_stage0"},
+    "age=1": {"model": "magiccraft:block/mandragora_stage1"},
+    "age=2": {"model": "magiccraft:block/mandragora_stage2"},
+    "age=3": {"model": "magiccraft:block/mandragora_stage3"},
+    "age=4": {"model": "magiccraft:block/mandragora_stage4"},
+    "age=5": {"model": "magiccraft:block/mandragora_stage5"},
+    "age=6": {"model": "magiccraft:block/mandragora_stage6"}
+  }
+}

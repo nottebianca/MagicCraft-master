@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "magiccraft:tin_ore",
+    "magiccraft:tin_block",
+    "magiccraft:deepslate_tin_ore"
+  ]
+}
