@@ -44,6 +44,34 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> BLUE_SAPPHIRES_BLOCK = registerBlock("blue_sapphires_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> BLUE_SAPPHIRES_ORE = registerBlock("blue_sapphires_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> GREEN_EMERALDS_BLOCK = registerBlock("green_emeralds_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> GREEN_EMERALDS_ORE = registerBlock("green_emeralds_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> SCARLET_RUBIES_BLOCK = registerBlock("scarlet_rubies_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> SCARLET_RUBIES_ORE = registerBlock("scarlet_rubies_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> YELLOW_DIAMONDS_BLOCK = registerBlock("yellow_diamonds_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> YELLOW_DIAMONDS_ORE = registerBlock("yellow_diamonds_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
     public static final RegistryObject<Block> INVISIBILITY_BLOCK = registerBlock("invisibility_block",
             () -> new InvisibilityBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MAGICCRAFT_TAB);

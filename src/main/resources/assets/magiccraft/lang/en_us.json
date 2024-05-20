@@ -13,11 +13,22 @@
   "item.magiccraft.magic_ball": "Magic Ball",
   "item.magiccraft.mandragora": "Mandragora",
   "item.magiccraft.mandragora_seeds": "Mandragora Seeds",
+
   "block.magiccraft.tin_block": "Tin Block",
   "block.magiccraft.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.magiccraft.tin_stone": "Tin Stone",
   "block.magiccraft.nether_tin_ore": "Nether Tin Ore",
   "block.magiccraft.tin_ore": "Tin Ore",
+  "block.magiccraft.blue_sapphires_ore": "Blue Sapphires Ore",
+  "block.magiccraft.blue_sapphires_block": "Blue Sapphires Block",
+  "block.magiccraft.green_emeralds_ore": "Green Emeralds Ore",
+  "block.magiccraft.green_emeralds_block": "Green Emeralds Block",
+  "block.magiccraft.scarlet_rubies_ore": "Scarlet Rubies Ore",
+  "block.magiccraft.scarlet_rubies_block": "Scarlet Rubies Block",
+  "block.magiccraft.yellow_diamonds_ore": "Yellow Diamonds Ore",
+  "block.magiccraft.yellow_diamonds_block": "Yellow Diamonds Block",
+
+
   "block.magiccraft.invisibility_block": "Invisibility Block",
   "block.magiccraft.tin_lamp": "Tin Lamp",
   "block.magiccraft.mandragora_crop": "Mandragora Crop",

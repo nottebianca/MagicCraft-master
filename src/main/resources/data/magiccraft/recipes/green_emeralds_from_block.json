@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magiccraft:green_emeralds_block"
+    }
+  ],
+  "result": {
+    "item": "magiccraft:green_emeralds",
+    "count": 9
+  }
+}

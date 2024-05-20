@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magiccraft:yellow_diamonds_block"
+    }
+  ],
+  "result": {
+    "item": "magiccraft:yellow_diamonds",
+    "count": 9
+  }
+}

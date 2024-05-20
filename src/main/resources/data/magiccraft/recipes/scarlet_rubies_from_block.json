@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "magiccraft:scarlet_rubies_block"
+    }
+  ],
+  "result": {
+    "item": "magiccraft:scarlet_rubies",
+    "count": 9
+  }
+}

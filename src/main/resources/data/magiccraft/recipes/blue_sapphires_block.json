@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "magiccraft:blue_sapphires"
+    }
+  },
+  "result": {
+    "item": "magiccraft:blue_sapphires_block"
+  }
+}

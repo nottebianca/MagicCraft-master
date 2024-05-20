@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab MAGICCRAFT_TAB = new CreativeModeTab("magiccrafttab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.SCARLET_RUBIES.get());
+            return new ItemStack(ModItems.RAW_SCARLET_RUBIES.get());
 
         }
     };
