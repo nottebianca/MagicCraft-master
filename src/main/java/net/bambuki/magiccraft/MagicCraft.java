@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.bambuki.magiccraft.block.ModBlocks;
 import net.bambuki.magiccraft.item.ModItems;
 import net.bambuki.magiccraft.villager.ModVillagers;
+import net.bambuki.magiccraft.world.feature.ModConfiguredFeatures;
+import net.bambuki.magiccraft.world.feature.ModPlacedFeatures;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.item.BlockItem;
@@ -48,6 +50,8 @@ public class MagicCraft
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         ModVillagers.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);

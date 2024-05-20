@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "magiccraft:block/green_emeralds_lamp_on"},
+    "lit=false": { "model": "magiccraft:block/green_emeralds_lamp_off"}
+  }
+}

@@ -36,11 +36,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
-    public static final RegistryObject<Block> TIN_STONE = registerBlock("tin_stone",
+    public static final RegistryObject<Block> ENDSTONE_TIN_ORE = registerBlock("endstone_tin_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
-    public static final RegistryObject<Block> NETHER_TIN_ORE = registerBlock("nether_tin_ore",
+    public static final RegistryObject<Block> NETHERRACK_TIN_ORE = registerBlock("netherrack_tin_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.MAGICCRAFT_TAB);
@@ -76,6 +76,22 @@ public class ModBlocks {
             () -> new InvisibilityBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.MAGICCRAFT_TAB);
     public static final RegistryObject<Block> TIN_LAMP = registerBlock("tin_lamp",
+            () -> new TinLampBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(TinLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> BLUE_SAPPHIRES_LAMP = registerBlock("blue_sapphires_lamp",
+            () -> new TinLampBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(TinLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> GREEN_EMERALDS_LAMP = registerBlock("green_emeralds_lamp",
+            () -> new TinLampBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(TinLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> SCARLET_RUBIES_LAMP = registerBlock("scarlet_rubies_lamp",
+            () -> new TinLampBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(TinLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.MAGICCRAFT_TAB);
+    public static final RegistryObject<Block> YELLOW_DIAMONDS_LAMP = registerBlock("yellow_diamonds_lamp",
             () -> new TinLampBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()
                     .lightLevel(state -> state.getValue(TinLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.MAGICCRAFT_TAB);

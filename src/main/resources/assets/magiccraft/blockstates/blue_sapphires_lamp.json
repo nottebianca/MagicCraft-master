@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "magiccraft:block/blue_sapphires_lamp_on"},
+    "lit=false": { "model": "magiccraft:block/blue_sapphires_lamp_off"}
+  }
+}

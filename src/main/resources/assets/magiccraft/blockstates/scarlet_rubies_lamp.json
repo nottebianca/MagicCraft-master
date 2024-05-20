@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "magiccraft:block/scarlet_rubies_lamp_on"},
+    "lit=false": { "model": "magiccraft:block/scarlet_rubies_lamp_off"}
+  }
+}

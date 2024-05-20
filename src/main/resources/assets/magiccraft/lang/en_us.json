@@ -16,8 +16,6 @@
 
   "block.magiccraft.tin_block": "Tin Block",
   "block.magiccraft.deepslate_tin_ore": "Deepslate Tin Ore",
-  "block.magiccraft.tin_stone": "Tin Stone",
-  "block.magiccraft.nether_tin_ore": "Nether Tin Ore",
   "block.magiccraft.tin_ore": "Tin Ore",
   "block.magiccraft.blue_sapphires_ore": "Blue Sapphires Ore",
   "block.magiccraft.blue_sapphires_block": "Blue Sapphires Block",
@@ -27,11 +25,17 @@
   "block.magiccraft.scarlet_rubies_block": "Scarlet Rubies Block",
   "block.magiccraft.yellow_diamonds_ore": "Yellow Diamonds Ore",
   "block.magiccraft.yellow_diamonds_block": "Yellow Diamonds Block",
+  "block.magiccraft.tin_lamp": "Tin Lamp",
+  "block.magiccraft.blue_sapphires_lamp": "Blue Sapphires Lamp",
+  "block.magiccraft.green_emeralds_lamp": "Green Emeralds Lamp",
+  "block.magiccraft.scarlet_rubies_lamp": "Scarlet Rubies Lamp",
+  "block.magiccraft.yellow_diamonds_lamp": "Yellow Diamonds Lamp",
+  "block.magiccraft.netherrack_tin_ore": "Netherrack Tin Ore",
+  "block.magiccraft.endstone_tin_ore": "Endstore Tin Ore",
 
 
   "block.magiccraft.invisibility_block": "Invisibility Block",
-  "block.magiccraft.tin_lamp": "Tin Lamp",
   "block.magiccraft.mandragora_crop": "Mandragora Crop",
   "itemGroup.magiccrafttab":"Magic Craft Mod Tab",
-  "entity.minecraft.villager.invisibility_master": "Invisibility Master"
+  "entity.minecraft.villager.magiccraft.invisibility_master": "Invisibility Master"
 }
