@@ -2,6 +2,7 @@ package net.bambuki.magiccraft.item;
 
 import net.bambuki.magiccraft.MagicCraft;
 import net.bambuki.magiccraft.block.ModBlocks;
+import net.bambuki.magiccraft.item.custom.DowsingRodItem;
 import net.bambuki.magiccraft.item.custom.MagicBallItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -38,6 +39,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> RAW_YELLOW_DIAMONDS = ITEMS.register("raw_yellow_diamonds",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).durability(16)));
 
 
 

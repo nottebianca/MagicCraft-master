@@ -13,6 +13,8 @@
   "item.magiccraft.magic_ball": "Magic Ball",
   "item.magiccraft.mandragora": "Mandragora",
   "item.magiccraft.mandragora_seeds": "Mandragora Seeds",
+  "item.magiccraft.dowsing_rod": "Dowsing Rod",
+  "item.magiccraft.dowsing_rod.no_valuables": "No Valuables Found",
 
   "block.magiccraft.tin_block": "Tin Block",
   "block.magiccraft.deepslate_tin_ore": "Deepslate Tin Ore",
