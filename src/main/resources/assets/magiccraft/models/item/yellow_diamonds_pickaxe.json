@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "magiccraft:item/yellow_diamonds_pickaxe"
+  }
+}

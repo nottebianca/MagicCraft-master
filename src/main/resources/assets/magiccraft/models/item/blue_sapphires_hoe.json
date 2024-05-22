@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "magiccraft:item/blue_sapphires_hoe"
+  }
+}
