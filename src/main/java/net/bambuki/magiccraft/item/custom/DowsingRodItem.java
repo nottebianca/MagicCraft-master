@@ -1,16 +1,22 @@
 package net.bambuki.magiccraft.item.custom;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.bambuki.magiccraft.block.ModBlocks;
+import org.jetbrains.annotations.Nullable;
 
+import java.util.List;
 
 
 public class DowsingRodItem extends Item {
@@ -72,6 +78,16 @@ public class DowsingRodItem extends Item {
         }
         player.sendSystemMessage(Component.literal("Found " + blockName + " at " +
                 "(" + blockPos.getX() + ", " + blockPos.getY() + "," + blockPos.getZ() + ")"));
+    }
+    @Override
+    public void appendHoverText(ItemStack stack, @Nullable Level p_41422_, List<Component> components, TooltipFlag flag) {
+        if(Screen.hasShiftDown()){
+            components.add(Component.literal("Right click to find an ore").withStyle(ChatFormatting.GREEN));
+
+        } else {
+            components.add(Component.literal("Press SHIFT for more info").withStyle(ChatFormatting.GOLD));
+        }
+        super.appendHoverText(stack, p_41422_, components, flag);
     }
 
 
