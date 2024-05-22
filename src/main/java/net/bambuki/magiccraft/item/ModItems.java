@@ -2,10 +2,7 @@ package net.bambuki.magiccraft.item;
 
 import net.bambuki.magiccraft.MagicCraft;
 import net.bambuki.magiccraft.block.ModBlocks;
-import net.bambuki.magiccraft.item.custom.DowsingRodItem;
-import net.bambuki.magiccraft.item.custom.ExplosivePowerPickAxeItem;
-import net.bambuki.magiccraft.item.custom.LevitationSwordItem;
-import net.bambuki.magiccraft.item.custom.MagicBallItem;
+import net.bambuki.magiccraft.item.custom.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -115,7 +112,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> BLUE_SAPPHIRES_HELMET = ITEMS.register("blue_sapphires_helmet",
-            () -> new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> SCARLET_RUBIES_BOOTS = ITEMS.register("scarlet_rubies_boots",
             () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.FEET,
@@ -127,7 +124,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> SCARLET_RUBIES_HELMET = ITEMS.register("scarlet_rubies_helmet",
-            () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> GREEN_EMERALDS_BOOTS = ITEMS.register("green_emeralds_boots",
             () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.FEET,
@@ -139,7 +136,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> GREEN_EMERALDS_HELMET = ITEMS.register("green_emeralds_helmet",
-            () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> YELLOW_DIAMONDS_BOOTS = ITEMS.register("yellow_diamonds_boots",
             () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.FEET,
@@ -151,7 +148,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> YELLOW_DIAMONDS_HELMET = ITEMS.register("yellow_diamonds_helmet",
-            () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.HEAD,
+            () -> new ModArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
 
 
