@@ -3,6 +3,7 @@ package net.bambuki.magiccraft.item;
 import net.bambuki.magiccraft.MagicCraft;
 import net.bambuki.magiccraft.block.ModBlocks;
 import net.bambuki.magiccraft.item.custom.DowsingRodItem;
+import net.bambuki.magiccraft.item.custom.LevitationSwordItem;
 import net.bambuki.magiccraft.item.custom.MagicBallItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -51,7 +52,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.YELLOW_DIAMONDS,1, 2f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> YELLOW_DIAMONDS_SWORD = ITEMS.register("yellow_diamonds_sword",
-            () -> new SwordItem(ModTiers.YELLOW_DIAMONDS,2, 3f,
+            () -> new LevitationSwordItem(ModTiers.YELLOW_DIAMONDS,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> YELLOW_DIAMONDS_HOE = ITEMS.register("yellow_diamonds_hoe",
             () -> new HoeItem(ModTiers.YELLOW_DIAMONDS,0, 0f,
@@ -66,7 +67,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.GREEN_EMERALDS,1, 2f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> GREEN_EMERALDS_SWORD = ITEMS.register("green_emeralds_sword",
-            () -> new SwordItem(ModTiers.GREEN_EMERALDS,2, 3f,
+            () -> new LevitationSwordItem(ModTiers.GREEN_EMERALDS,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> GREEN_EMERALDS_HOE = ITEMS.register("green_emeralds_hoe",
             () -> new HoeItem(ModTiers.GREEN_EMERALDS,0, 0f,
@@ -81,7 +82,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.SCARLET_RUBIES,1, 2f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> SCARLET_RUBIES_SWORD = ITEMS.register("scarlet_rubies_sword",
-            () -> new SwordItem(ModTiers.SCARLET_RUBIES,2, 3f,
+            () -> new LevitationSwordItem(ModTiers.SCARLET_RUBIES,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> SCARLET_RUBIES_HOE = ITEMS.register("scarlet_rubies_hoe",
             () -> new HoeItem(ModTiers.SCARLET_RUBIES,0, 0f,
@@ -96,7 +97,7 @@ public class ModItems {
             () -> new ShovelItem(ModTiers.BLUE_SAPPHIRES,1, 2f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> BLUE_SAPPHIRES_SWORD = ITEMS.register("blue_sapphires_sword",
-            () -> new SwordItem(ModTiers.BLUE_SAPPHIRES,2, 3f,
+            () -> new LevitationSwordItem(ModTiers.BLUE_SAPPHIRES,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> BLUE_SAPPHIRES_HOE = ITEMS.register("blue_sapphires_hoe",
             () -> new HoeItem(ModTiers.BLUE_SAPPHIRES,0, 0f,
