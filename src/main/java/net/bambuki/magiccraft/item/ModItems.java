@@ -3,6 +3,7 @@ package net.bambuki.magiccraft.item;
 import net.bambuki.magiccraft.MagicCraft;
 import net.bambuki.magiccraft.block.ModBlocks;
 import net.bambuki.magiccraft.item.custom.DowsingRodItem;
+import net.bambuki.magiccraft.item.custom.ExplosivePowerPickAxeItem;
 import net.bambuki.magiccraft.item.custom.LevitationSwordItem;
 import net.bambuki.magiccraft.item.custom.MagicBallItem;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -43,7 +44,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> YELLOW_DIAMONDS_PICKAXE = ITEMS.register("yellow_diamonds_pickaxe",
-            () -> new PickaxeItem(ModTiers.YELLOW_DIAMONDS,2, 3f,
+            () -> new ExplosivePowerPickAxeItem(ModTiers.YELLOW_DIAMONDS,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> YELLOW_DIAMONDS_AXE = ITEMS.register("yellow_diamonds_axe",
             () -> new AxeItem(ModTiers.YELLOW_DIAMONDS,2, 2f,
@@ -58,7 +59,7 @@ public class ModItems {
             () -> new HoeItem(ModTiers.YELLOW_DIAMONDS,0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> GREEN_EMERALDS_PICKAXE = ITEMS.register("green_emeralds_pickaxe",
-            () -> new PickaxeItem(ModTiers.GREEN_EMERALDS,2, 3f,
+            () -> new ExplosivePowerPickAxeItem(ModTiers.GREEN_EMERALDS,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> GREEN_EMERALDS_AXE = ITEMS.register("green_emeralds_axe",
             () -> new AxeItem(ModTiers.GREEN_EMERALDS,2, 2f,
@@ -73,7 +74,7 @@ public class ModItems {
             () -> new HoeItem(ModTiers.GREEN_EMERALDS,0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> SCARLET_RUBIES_PICKAXE = ITEMS.register("scarlet_rubies_pickaxe",
-            () -> new PickaxeItem(ModTiers.SCARLET_RUBIES,2, 3f,
+            () -> new ExplosivePowerPickAxeItem(ModTiers.SCARLET_RUBIES,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> SCARLET_RUBIES_AXE = ITEMS.register("scarlet_rubies_axe",
             () -> new AxeItem(ModTiers.SCARLET_RUBIES,2, 2f,
@@ -88,7 +89,7 @@ public class ModItems {
             () -> new HoeItem(ModTiers.SCARLET_RUBIES,0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> BLUE_SAPPHIRES_PICKAXE = ITEMS.register("blue_sapphires_pickaxe",
-            () -> new PickaxeItem(ModTiers.BLUE_SAPPHIRES,2, 3f,
+            () -> new ExplosivePowerPickAxeItem(ModTiers.BLUE_SAPPHIRES,2, 3f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
     public static final RegistryObject<Item> BLUE_SAPPHIRES_AXE = ITEMS.register("blue_sapphires_axe",
             () -> new AxeItem(ModTiers.BLUE_SAPPHIRES,2, 2f,
