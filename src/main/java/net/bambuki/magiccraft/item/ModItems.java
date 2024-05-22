@@ -150,6 +150,10 @@ public class ModItems {
     public static final RegistryObject<Item> YELLOW_DIAMONDS_HELMET = ITEMS.register("yellow_diamonds_helmet",
             () -> new ModArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.HEAD,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> INVISIBILITY_CLOAK = ITEMS.register("invisibility_cloak",
+            () -> new InvisibilityCloak(ModArmorMaterials.INVISIBILITY_CLOAK, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+
 
 
 
