@@ -8,6 +8,7 @@ import net.bambuki.magiccraft.item.custom.LevitationSwordItem;
 import net.bambuki.magiccraft.item.custom.MagicBallItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -104,6 +105,54 @@ public class ModItems {
             () -> new HoeItem(ModTiers.BLUE_SAPPHIRES,0, 0f,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
 
+    public static final RegistryObject<Item> BLUE_SAPPHIRES_BOOTS = ITEMS.register("blue_sapphires_boots",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> BLUE_SAPPHIRES_LEGGINGS = ITEMS.register("blue_sapphires_leggings",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> BLUE_SAPPHIRES_CHESTPLATE = ITEMS.register("blue_sapphires_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> BLUE_SAPPHIRES_HELMET = ITEMS.register("blue_sapphires_helmet",
+            () -> new ArmorItem(ModArmorMaterials.BLUE_SAPPHIRES, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> SCARLET_RUBIES_BOOTS = ITEMS.register("scarlet_rubies_boots",
+            () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> SCARLET_RUBIES_LEGGINGS = ITEMS.register("scarlet_rubies_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> SCARLET_RUBIES_CHESTPLATE = ITEMS.register("scarlet_rubies_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> SCARLET_RUBIES_HELMET = ITEMS.register("scarlet_rubies_helmet",
+            () -> new ArmorItem(ModArmorMaterials.SCARLET_RUBIES, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> GREEN_EMERALDS_BOOTS = ITEMS.register("green_emeralds_boots",
+            () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> GREEN_EMERALDS_LEGGINGS = ITEMS.register("green_emeralds_leggings",
+            () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> GREEN_EMERALDS_CHESTPLATE = ITEMS.register("green_emeralds_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> GREEN_EMERALDS_HELMET = ITEMS.register("green_emeralds_helmet",
+            () -> new ArmorItem(ModArmorMaterials.GREEN_EMERALDS, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> YELLOW_DIAMONDS_BOOTS = ITEMS.register("yellow_diamonds_boots",
+            () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.FEET,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> YELLOW_DIAMONDS_LEGGINGS = ITEMS.register("yellow_diamonds_leggings",
+            () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.LEGS,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> YELLOW_DIAMONDS_CHESTPLATE = ITEMS.register("yellow_diamonds_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.CHEST,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> YELLOW_DIAMONDS_HELMET = ITEMS.register("yellow_diamonds_helmet",
+            () -> new ArmorItem(ModArmorMaterials.YELLOW_DIAMONDS, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
 
 
 

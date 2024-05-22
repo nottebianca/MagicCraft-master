@@ -15,6 +15,7 @@ public class LevitationSwordItem extends SwordItem {
     @Override
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
         pTarget.addEffect(new MobEffectInstance(MobEffects.LEVITATION, 200), pAttacker);
+        pTarget.setSecondsOnFire(5);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }

@@ -37,7 +37,22 @@
   "item.magiccraft.yellow_diamonds_sword" : "Yellow Diamonds Sword",
   "item.magiccraft.yellow_diamonds_hoe" : "Yellow Diamonds Hoe",
 
-
+  "item.magiccraft.blue_sapphires_boots" : "Blue Sapphires Boots",
+  "item.magiccraft.blue_sapphires_leggings" : "Blue Sapphires Leggings",
+  "item.magiccraft.blue_sapphires_chestplate" : "Blue Sapphires Chestplace",
+  "item.magiccraft.blue_sapphires_helmet" : "Blue Sapphires Helmet",
+  "item.magiccraft.scarlet_rubies_boots" : "Scarlet Rubies Boots",
+  "item.magiccraft.scarlet_rubies_leggings" : "Scarlet Rubies Leggings",
+  "item.magiccraft.scarlet_rubies_chestplate" : "Scarlet Rubies Chestplace",
+  "item.magiccraft.scarlet_rubies_helmet" : "Scarlet Rubies Helmet",
+  "item.magiccraft.green_emeralds_boots" : "Green Emeralds Boots",
+  "item.magiccraft.green_emeralds_leggings" : "Green Emeralds Leggings",
+  "item.magiccraft.green_emeralds_chestplate" : "Green Emeralds Chestplace",
+  "item.magiccraft.green_emeralds_helmet" : "Green Emeralds Helmet",
+  "item.magiccraft.yellow_diamonds_boots" : "Yellow Diamonds Boots",
+  "item.magiccraft.yellow_diamonds_leggings" : "Yellow Diamonds Leggings",
+  "item.magiccraft.yellow_diamonds_chestplate" : "Yellow Diamonds Chestplace",
+  "item.magiccraft.yellow_diamonds_helmet" : "Yellow Diamonds Helmet",
 
   "block.magiccraft.tin_block": "Tin Block",
   "block.magiccraft.deepslate_tin_ore": "Deepslate Tin Ore",
@@ -57,7 +72,6 @@
   "block.magiccraft.yellow_diamonds_lamp": "Yellow Diamonds Lamp",
   "block.magiccraft.netherrack_tin_ore": "Netherrack Tin Ore",
   "block.magiccraft.endstone_tin_ore": "Endstore Tin Ore",
-
 
   "block.magiccraft.invisibility_block": "Invisibility Block",
   "block.magiccraft.mandragora_crop": "Mandragora Crop",
