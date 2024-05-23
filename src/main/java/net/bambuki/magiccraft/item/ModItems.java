@@ -162,6 +162,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> MAGIC_BALL = ITEMS.register("magic_ball",
             () -> new MagicBallItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> MAGIC_WAND = ITEMS.register("magic_wand",
+            () -> new MagicWandItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
     public static final RegistryObject<Item> MANDRAGORA_SEEDS = ITEMS.register("mandragora_seeds",
             () -> new ItemNameBlockItem(ModBlocks.MANDRAGORA_CROP.get(),
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));

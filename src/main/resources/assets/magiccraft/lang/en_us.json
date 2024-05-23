@@ -77,6 +77,7 @@
   "block.magiccraft.invisibility_block": "Invisibility Block",
   "block.magiccraft.mandragora_crop": "Mandragora Crop",
   "item.magiccraft.sorting_hat": "Sorting Hat",
+  "item.magiccraft.magic_wand" : "Magic Wand",
   "item.magiccraft.sorting_hat.message": "The sorting hat has sorted you into: ",
   "itemGroup.magiccrafttab":"Magic Craft Mod Tab",
   "entity.minecraft.villager.magiccraft.invisibility_master": "Invisibility Master"
