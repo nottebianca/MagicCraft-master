@@ -1,0 +1,14 @@
+{
+  "avada_kedavra": {
+    "subtitle": "sounds.magiccraft.avada_kedavra",
+    "sounds": [
+      "magiccraft:avada_kedavra"
+    ]
+  },
+  "accio": {
+    "subtitle": "sound.magiccraft.accio",
+    "sounds": [
+      "magiccraft:accio"
+    ]
+  }
+}

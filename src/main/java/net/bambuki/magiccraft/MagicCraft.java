@@ -3,6 +3,7 @@ package net.bambuki.magiccraft;
 import com.mojang.logging.LogUtils;
 import net.bambuki.magiccraft.block.ModBlocks;
 import net.bambuki.magiccraft.item.ModItems;
+import net.bambuki.magiccraft.sound.ModSounds;
 import net.bambuki.magiccraft.villager.ModVillagers;
 import net.bambuki.magiccraft.world.feature.ModConfiguredFeatures;
 import net.bambuki.magiccraft.world.feature.ModPlacedFeatures;
@@ -54,6 +55,7 @@ public class MagicCraft
         ModPlacedFeatures.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         ModVillagers.register(modEventBus);
+        ModSounds.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
