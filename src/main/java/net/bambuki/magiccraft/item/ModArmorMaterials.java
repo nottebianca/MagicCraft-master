@@ -24,6 +24,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
     SCARLET_RUBIES("scarlet_rubies", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_CHAIN,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.SCARLET_RUBIES.get())),
     INVISIBILITY_CLOAK("invisibility_cloak", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_LEATHER,
+            2.0F, 0.0F, () -> Ingredient.of(ModItems.TIN.get())),
+    SORTING_HAT("sorting_hat", 28, new int[]{3, 6, 8, 3}, 19, SoundEvents.ARMOR_EQUIP_LEATHER,
             2.0F, 0.0F, () -> Ingredient.of(ModItems.TIN.get()));
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

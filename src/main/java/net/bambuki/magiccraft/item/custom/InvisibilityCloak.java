@@ -10,8 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class InvisibilityCloak extends ArmorItem {
-    private static final int INVISIBILITY_DURATION = 60; // 3 секунды
-    private static final int SLOWNESS_EFFECT_AMPLIFIER = 1; // 50% снижение скорости
+    private static final int INVISIBILITY_DURATION = 60;
+    private static final int SLOWNESS_EFFECT_AMPLIFIER = 1;
 
     public InvisibilityCloak(ArmorMaterial material, EquipmentSlot slot, Properties properties) {
         super(material, slot, properties);
@@ -20,7 +20,7 @@ public class InvisibilityCloak extends ArmorItem {
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {
         if (!world.isClientSide()) {
-            if (player.isShiftKeyDown() && player.getInventory().getArmor(2).getItem() == this) { // Игрок держит shift и носит мантию-невидимку
+            if (player.isShiftKeyDown() && player.getInventory().getArmor(2).getItem() == this) {
                 makePlayerInvisible(player);
                 reducePlayerMovementSpeed(player);
             } else {
@@ -32,25 +32,25 @@ public class InvisibilityCloak extends ArmorItem {
 
     private void makePlayerInvisible(Player player) {
         if (!player.hasEffect(MobEffects.INVISIBILITY)) {
-            player.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, INVISIBILITY_DURATION * 20, 0)); // Применение эффекта невидимости
+            player.addEffect(new MobEffectInstance(MobEffects.INVISIBILITY, INVISIBILITY_DURATION * 20, 0));
         }
     }
 
     private void reducePlayerMovementSpeed(Player player) {
         if (!player.hasEffect(MobEffects.MOVEMENT_SLOWDOWN)) {
-            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, INVISIBILITY_DURATION * 20, SLOWNESS_EFFECT_AMPLIFIER)); // Снижение скорости передвижения
+            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, INVISIBILITY_DURATION * 20, SLOWNESS_EFFECT_AMPLIFIER));
         }
     }
 
     private void stopPlayerInvisibility(Player player) {
         if (player.hasEffect(MobEffects.INVISIBILITY)) {
-            player.removeEffect(MobEffects.INVISIBILITY); // Удаление эффекта невидимости
+            player.removeEffect(MobEffects.INVISIBILITY);
         }
     }
 
     private void resetPlayerMovementSpeed(Player player) {
         if (player.hasEffect(MobEffects.MOVEMENT_SLOWDOWN)) {
-            player.removeEffect(MobEffects.MOVEMENT_SLOWDOWN); // Возврат скорости к нормальной
+            player.removeEffect(MobEffects.MOVEMENT_SLOWDOWN);
         }
     }
 }

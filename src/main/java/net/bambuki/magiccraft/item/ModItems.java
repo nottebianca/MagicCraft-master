@@ -153,6 +153,9 @@ public class ModItems {
     public static final RegistryObject<Item> INVISIBILITY_CLOAK = ITEMS.register("invisibility_cloak",
             () -> new InvisibilityCloak(ModArmorMaterials.INVISIBILITY_CLOAK, EquipmentSlot.CHEST,
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> SORTING_HAT = ITEMS.register("sorting_hat",
+            () -> new SortingHat(ModArmorMaterials.SORTING_HAT, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
 
 
 
