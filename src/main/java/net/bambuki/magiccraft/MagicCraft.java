@@ -2,6 +2,9 @@ package net.bambuki.magiccraft;
 
 import com.mojang.logging.LogUtils;
 import net.bambuki.magiccraft.block.ModBlocks;
+import net.bambuki.magiccraft.event.GryffindorEvent;
+import net.bambuki.magiccraft.event.HufflepuffEvent;
+import net.bambuki.magiccraft.event.RavenclawEvent;
 import net.bambuki.magiccraft.item.ModItems;
 import net.bambuki.magiccraft.sound.ModSounds;
 import net.bambuki.magiccraft.villager.ModVillagers;
@@ -57,6 +60,9 @@ public class MagicCraft
         ModVillagers.register(modEventBus);
         ModSounds.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.register(GryffindorEvent.class);
+        MinecraftForge.EVENT_BUS.register(RavenclawEvent.class);
+        MinecraftForge.EVENT_BUS.register(HufflepuffEvent.class);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

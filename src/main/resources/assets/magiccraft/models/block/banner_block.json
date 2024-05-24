@@ -1,0 +1,6 @@
+{
+  "parent": "block/banner",
+  "textures": {
+    "pattern": "magiccraft:block/banner_block"
+  }
+}

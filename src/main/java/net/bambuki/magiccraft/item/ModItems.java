@@ -2,6 +2,7 @@ package net.bambuki.magiccraft.item;
 
 import net.bambuki.magiccraft.MagicCraft;
 import net.bambuki.magiccraft.block.ModBlocks;
+import net.bambuki.magiccraft.event.GryffindorEvent;
 import net.bambuki.magiccraft.item.custom.*;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -169,6 +170,16 @@ public class ModItems {
     public static final RegistryObject<Item> MANDRAGORA_SEEDS = ITEMS.register("mandragora_seeds",
             () -> new ItemNameBlockItem(ModBlocks.MANDRAGORA_CROP.get(),
                     new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)));
+    public static final RegistryObject<Item> GRYFFINDOR_ARTIFACT = ITEMS.register("gryffindor_artifact",
+            () -> new GryffindorArtifactItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> RAVENCLAW_ARTIFACT = ITEMS.register("ravenclaw_artifact",
+            () -> new RavenclawArtifactItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> HUFFLEPUFF_ARTIFACT = ITEMS.register("hufflepuff_artifact",
+            () -> new HufflepuffArtifactItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> SLYTHERIN_ARTIFACT = ITEMS.register("slytherin_artifact",
+            () -> new SlytherinArtifactItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
+    public static final RegistryObject<Item> RAVENCLAW_CHALICE = ITEMS.register("ravenclaw_chalice",
+            () -> new RavenclawChaliceItem(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB).stacksTo(1)));
     public static final RegistryObject<Item> MANDRAGORA = ITEMS.register("mandragora",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MAGICCRAFT_TAB)
                     .food(new FoodProperties.Builder()
