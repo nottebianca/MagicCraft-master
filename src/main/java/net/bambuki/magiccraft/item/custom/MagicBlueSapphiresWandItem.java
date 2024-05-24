@@ -50,11 +50,11 @@ public class MagicBlueSapphiresWandItem extends Item {
                     try {
                         world.playSound(null, player.getX(), player.getY(), player.getZ(),
                                 ModSounds.WINGARDIUM_LEVIOSA.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
-                        item.setNoGravity(true); // Отключает гравитацию для предмета
-                        item.setDeltaMovement(new Vec3(0, 0.5, 0)); // Поднимает предметы в воздух
-                        Thread.sleep(2500); // Предмет висит в воздухе 2,5 секунды
-                        item.setDeltaMovement(Vec3.ZERO); // Останавливает движение предмета
-                        item.setNoGravity(false); // Включает гравитацию для предмета
+                        item.setNoGravity(true);
+                        item.setDeltaMovement(new Vec3(0, 0.5, 0));
+                        Thread.sleep(2500);
+                        item.setDeltaMovement(Vec3.ZERO);
+                        item.setNoGravity(false);
                         itemsLevitated.incrementAndGet();
                         if (itemsLevitated.get() > 0) {
                             player.sendSystemMessage(Component.literal("Wingardium Leviosa").withStyle(ChatFormatting.YELLOW));

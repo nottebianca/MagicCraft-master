@@ -5,10 +5,10 @@
       "item": "minecraft:stick"
     },
     "K": {
-      "item": "magiccraft:slytherin_artifact"
+      "item": "magiccraft:hufflepuff_artifact"
     },
     "X": {
-      "item": "magiccraft:gryffindor_artifact"
+      "item": "magiccraft:ravenclaw_artifact"
     }
   },
   "pattern": [
@@ -17,6 +17,6 @@
     " K "
   ],
   "result": {
-    "item": "magiccraft:magic_wand"
+    "item": "magiccraft:magic_blue_sapphires_wand"
   }
 }
