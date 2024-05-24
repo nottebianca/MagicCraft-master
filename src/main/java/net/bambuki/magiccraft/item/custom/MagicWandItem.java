@@ -25,7 +25,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MagicWandItem extends Item {
 
-    private static final double ATTACK_RADIUS = 10.0;  // Радиус атаки
+    private static final double ATTACK_RADIUS = 10.0;
 
     public MagicWandItem(Properties properties) {
         super(properties);
@@ -48,7 +48,7 @@ public class MagicWandItem extends Item {
                     try {
                         world.playSound(null, player.getX(), player.getY(), player.getZ(),
                                 ModSounds.ACCIO.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
-                        Thread.sleep(1000);  // Wait for 2 seconds
+                        Thread.sleep(1000);
                         item.setDeltaMovement(direction.scale(0.5));
                         itemsPulled.incrementAndGet();
                         if (itemsPulled.get() > 0) {

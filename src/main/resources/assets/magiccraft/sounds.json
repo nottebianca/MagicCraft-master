@@ -10,5 +10,17 @@
     "sounds": [
       "magiccraft:accio"
     ]
+  },
+  "petrificus_totalus": {
+    "subtitle": "sound.magiccraft.petrificus_totalus",
+    "sounds": [
+      "magiccraft:petrificus_totalus"
+    ]
+  },
+  "wingardium_leviosa": {
+    "subtitle": "sound.magiccraft.wingardium_leviosa",
+    "sounds": [
+      "magiccraft:wingardium_leviosa"
+    ]
   }
 }

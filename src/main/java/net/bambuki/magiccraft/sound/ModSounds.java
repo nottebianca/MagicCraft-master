@@ -15,6 +15,11 @@ public class ModSounds {
             registerSoundEvent("avada_kedavra");
     public static final RegistryObject<SoundEvent> ACCIO =
             registerSoundEvent("accio");
+    public static final RegistryObject<SoundEvent> PETRIFICUS_TOTALUS =
+            registerSoundEvent("petrificus_totalus");
+    public static final RegistryObject<SoundEvent> WINGARDIUM_LEVIOSA =
+            registerSoundEvent("wingardium_leviosa");
+
     private static RegistryObject<SoundEvent> registerSoundEvent(String name){
         return SOUND_EVENTS.register(name, () -> new SoundEvent(new ResourceLocation(MagicCraft.MOD_ID, name)));
     }
