@@ -43,6 +43,10 @@ public class RavenclawChaliceItem extends Item {
                     hasPoison = true;
                     player.removeEffect(MobEffects.POISON);
                 }
+                if (effect.getEffect() == MobEffects.CONFUSION) {
+                    hasPoison = true;
+                    player.removeEffect(MobEffects.CONFUSION);
+                }
             }
             if (hasPoison) {
                 player.playNotifySound(SoundEvents.GENERIC_DRINK, SoundSource.PLAYERS, 1.0F, 1.0F);
