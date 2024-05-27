@@ -43,6 +43,56 @@ public class ModEvents {
         }
         if (event.getType() == ModVillagers.INVISIBILITY_MASTER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.TIN.get(), 12);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    stack, 10, 8, 0.02F));
+
+        }
+        if (event.getType() == ModVillagers.INVISIBILITY_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.BLUE_SAPPHIRES.get(), 12);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    stack, 10, 1, 0.02F));
+
+        }
+        if (event.getType() == ModVillagers.INVISIBILITY_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.GREEN_EMERALDS.get(), 12);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    stack, 10, 1, 0.02F));
+
+        }
+        if (event.getType() == ModVillagers.INVISIBILITY_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.SCARLET_RUBIES.get(), 12);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    stack, 10, 1, 0.02F));
+
+        }
+        if (event.getType() == ModVillagers.INVISIBILITY_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
+            ItemStack stack = new ItemStack(ModItems.YELLOW_DIAMONDS.get(), 12);
+            int villagerLevel = 1;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(Items.EMERALD, 12),
+                    stack, 10, 1, 0.02F));
+
+        }
+        if (event.getType() == ModVillagers.INVISIBILITY_MASTER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             ItemStack stack = new ItemStack(ModItems.MANDRAGORA.get(), 15);
             int villagerLevel = 1;
 
