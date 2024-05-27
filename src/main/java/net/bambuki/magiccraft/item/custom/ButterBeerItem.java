@@ -42,14 +42,14 @@ public class ButterBeerItem extends Item {
                 if (drinkCount >= MAX_DRINKS) {
                     player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 600, 0)); // 30 секунд эффекта
                     player.sendSystemMessage(Component.literal("You feel dizzy...").withStyle(ChatFormatting.RED));
-                    player.getPersistentData().putInt(DRINK_COUNT_TAG, 0); // Сбросить счетчик после достижения лимита
+                    player.getPersistentData().putInt(DRINK_COUNT_TAG, 0); 
                 } else {
                     player.sendSystemMessage(Component.literal("Butter Beer is refreshing!").withStyle(ChatFormatting.YELLOW));
                 }
             }
 
             if (!player.getAbilities().instabuild) {
-                stack.shrink(1); // Уменьшить количество предметов в стеке на 1
+                stack.shrink(1);
             }
         }
 
