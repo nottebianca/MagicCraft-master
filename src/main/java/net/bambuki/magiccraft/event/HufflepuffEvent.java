@@ -17,16 +17,12 @@ public class HufflepuffEvent {
         if (event.phase == TickEvent.Phase.END) {
             Player player = event.player;
             boolean hasArtifact = false;
-
-            // Проверяем все слоты инвентаря игрока
             for (int i = 0; i < player.getInventory().getContainerSize(); i++) {
                 if (player.getInventory().getItem(i).getItem() == ModItems.HUFFLEPUFF_ARTIFACT.get()) {
                     hasArtifact = true;
                     break;
                 }
             }
-
-            // Если предмет найден, применяем эффект огнеупорности
             if (hasArtifact) {
                 player.addEffect(new MobEffectInstance(MobEffects.LUCK, 220, 0, true, false));
             }

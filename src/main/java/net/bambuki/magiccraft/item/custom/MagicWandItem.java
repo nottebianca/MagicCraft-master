@@ -59,19 +59,6 @@ public class MagicWandItem extends Item {
                     }
                 }).start();
             }
-            AABB attackArea = new AABB(playerPos.x - ATTACK_RADIUS, playerPos.y - ATTACK_RADIUS, playerPos.z - ATTACK_RADIUS,
-                    playerPos.x + ATTACK_RADIUS, playerPos.y + ATTACK_RADIUS, playerPos.z + ATTACK_RADIUS);
-            for (LivingEntity target : world.getEntitiesOfClass(LivingEntity.class, attackArea)) {
-                if (target != player) {
-                    double distance = playerPos.distanceTo(target.position());
-                    if (distance <= ATTACK_RADIUS) {
-                        world.playSound(null, player.getX(), player.getY(), player.getZ(),
-                                ModSounds.AVADA_KEDAVRA.get(), SoundSource.PLAYERS, 1.0F, 1.0F);
-                        target.setHealth(0.0F);
-                        player.sendSystemMessage(Component.literal("Avada Kedavra").withStyle(ChatFormatting.DARK_GREEN));
-                    }
-                }
-            }
         }
         return InteractionResult.SUCCESS;
     }

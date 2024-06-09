@@ -17,8 +17,6 @@ public class GryffindorEvent {
         if (event.phase == TickEvent.Phase.END) {
             Player player = event.player;
             boolean hasArtifact = false;
-
-            // Проверяем все слоты инвентаря игрока
             for (int i = 0; i < player.getInventory().getContainerSize(); i++) {
                 if (player.getInventory().getItem(i).getItem() == ModItems.GRYFFINDOR_ARTIFACT.get()) {
                     hasArtifact = true;
@@ -26,7 +24,6 @@ public class GryffindorEvent {
                 }
             }
 
-            // Если предмет найден, применяем эффект огнеупорности
             if (hasArtifact) {
                 player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 220, 0, true, false));
             }
